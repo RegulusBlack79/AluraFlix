@@ -1,7 +1,9 @@
 body {
     color: rgb(158, 29, 218);
-    background: rgb(47, 2, 67);
+    background: rgb(3, 74, 17);
     margin: 0px;
+    font-family: "Dancing Script" , sans-serif;
+    font-size: 30px;
 }
 
 header {
@@ -21,4 +23,12 @@ section {
 
 .chamada-texto {
     margin-right: 5%;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+p {
+    font-size: 22px;
 }
