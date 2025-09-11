@@ -1,6 +1,6 @@
 body {
-    color: rgb(158, 29, 218);
-    background: rgb(3, 74, 17);
+    color: rgb(131, 50, 174);
+    background: rgb(175, 204, 181);
     margin: 0px;
     font-family: "Dancing Script" , sans-serif;
     font-size: 30px;
@@ -13,7 +13,7 @@ header {
     color: rgb(251, 249, 252);
 }
 
-section {
+.chamada {
     background: rgb(0, 0, 0);
     padding-bottom: 80px;
     padding-top: 80px;
@@ -35,4 +35,15 @@ p {
 
 img {
      height: 200px;
+}
+
+.categoria-videos {
+    display:flex;
+    overflow-x: auto;
+    gap: 10px;
+}
+
+.categoria {
+    padding-left: 20px;
+    padding-right: 20px;
 }
