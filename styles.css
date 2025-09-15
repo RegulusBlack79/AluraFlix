@@ -1,6 +1,6 @@
 body {
     color: rgb(131, 50, 174);
-    background: rgb(175, 204, 181);
+    background: rgb(135, 196, 218);
     margin: 0px;
     font-family: "Dancing Script" , sans-serif;
     font-size: 30px;
@@ -33,10 +33,6 @@ p {
     font-size: 22px;
 }
 
-img {
-     height: 200px;
-}
-
 .categoria-videos {
     display:flex;
     overflow-x: auto;
@@ -46,4 +42,13 @@ img {
 .categoria {
     padding-left: 20px;
     padding-right: 20px;
+}
+
+.categoria-videos img{
+    opacity: 0.5;
+    height: 200px;
+}
+
+.categoria-videos img:hover{
+    opacity: 1.0;
 }
